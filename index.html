@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Feedback Form</title>
+    <link rel="stylesheet" href="css/style.css">
+  </head>
+  <body>
+    <h1>Feedback Form</h1>
+    <hr size="3" noshade>
+    <form class="" action="index.html" method="post">
+      <h2>Please add your feedback below,</h2>
+
+       <label for="Instructor">Choose your Instructor:</label>
+       <select class="FeedbackFormDropdown" name="Instructor" id="instructor">
+       <option value="ChaithanyaKumar">ChaithanyaKumar</option>
+       <option value="Deepak">Deepak</option>
+       <option value="Aravinda">Aravinda</option>
+       <option value="Soundaryarajan">Soundaryarajan</option>
+       </select>
+      <br><br>
+
+      <label for="Course">Choose your Course:</label>
+      <select class="FeedbackFormDropdown" name="Course" id="Course">
+      <option value="Quality Assurance Engineering">Quality Assurance Engineering</option>
+      <option value="Full Stack Software Development Engineering">Full Stack Software Development Engineering</option>
+      <option value="DevOps Engineering">DevOps Engineering</option>
+      </select>
+     <br><br>
+      <label>Your Name: </label>
+      <input class="InputLabels" type="your name" name="youurName" value="">
+      <br><br>
+      <label>Email: </label>
+      <input class="InputLabels" type="email" name="email" value="">
+      <br><br>
+      <label>Select today's date</label>
+      <input class="InputLabels" type="date" name="date" value=""><br><br>
+      <input type="checkbox" name="checkbox1" value="">
+      <label>Checkbox if you like the session</label>
+      <br><br>
+      <label>Enter your Feedback</label>
+      <br>
+      <textarea class="FeedbackBox" name="Feedback" rows="8" cols="80"></textarea>
+      <br>
+      <button class="Button" type="submit" name="button">Submit</button>
+    </form>
+  </body>
+</html>
